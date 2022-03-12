@@ -135,7 +135,7 @@ function MainScreen() {
       }}
     >
       <StatusBar style="auto" />
-      <Button title="Run Again" onPress={onReloadPress} />
+      {/* <Button title="Run Again" onPress={onReloadPress} /> */}
       <WebView
         style={styles.container}
         source={{ uri: "https://cspidar.github.io/movword/" }}
